@@ -1,3 +1,83 @@
-html, body{
+html,
+body {
     height: 100%;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    height: 100%;
+
+}
+
+.l-box {
+    border: 1px solid black;
+    width: 20%;
+    height: 100%;
+    background-color: green;
+}
+
+.r-box {
+    border: 1px solid black;
+    width: 80%;
+    height: 100%;
+    background-color: orange;
+}
+
+.blokje {
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.l-blokje {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.balk {
+    border: 1px solid black;
+    width: 900px;
+    height: 150px;
+    background-color: purple;
+    margin-top: 40px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.foto {
+    border: 1px solid black;
+    width: 200px;
+    height: 150px;
+    background-color: white;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+.tekst {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: auto;
+    margin-left: 20px;
+    width: fit-content;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+.r-blokje {
+    width: 100%;
+    height: 100%;    
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
 }
